@@ -57,7 +57,7 @@ case "$channel" in
     ;;
 esac
 
-stack=${STACK:-heroku-16}
+stack=${STACK:-scalingo-18}
 
 # Install correct dependencies according to $STACK
 case "$stack" in
